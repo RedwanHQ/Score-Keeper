@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Score Keeper</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="istockphoto-1192307192-170667a.jpg" alt="" id="img">
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Ping Pong Score Keeper</p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1><span id="p1Display" class="">0</span> to <span id="p2Display" class="">0</span>
+                                </h1>
+                                <p class="subtitle">Use the buttons to keep scores</p>
+                                <label for="playTo" class="label is-large is-block">Playing to</label>
+                                <div class="select is-rounded">
+                                    <select name="" id="playTo">
+                                        <option value="3">3</option>
+                                        <option value="5">5</option>
+                                        <option value="7">7</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                </div>
+                                <label for="sport" class="label is-large is-block">What do you want to play?</label>
+                                <div class="select is-rounded">
+                                    <select name="" id="sport">
+                                        <option value="football">Football</option>
+                                        <option value="pingPong" selected>Ping Pong</option>
+                                        <option value="golf">Golf</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button id="p1Button" class="is-primary card-footer-item button is-large">+1
+                                Player1</button>
+                            <button id="p2Button" class="is-info card-footer-item button is-large">+1 Player2</button>
+                            <button id="reset" class="is-danger card-footer-item button is-large">Reset</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 
+    <button>+1 player One</button>
+    <button>+1 player Two</button>
+    <button>Reset</button> -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
