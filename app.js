@@ -50,11 +50,11 @@ resetButton.addEventListener("click", reset)
 
 sports.addEventListener("change", function(){
     if(sports.value === "football"){
-        backgroundImg.src = "nathan-rogers-I9HyW30buuQ-unsplash.jpg"
+        backgroundImg.src = "2.jpg"
     }else if(sports.value === "golf"){
-        backgroundImg.src = "courtney-cook-SsIIw_MET0E-unsplash.jpg"
+        backgroundImg.src = "3.jpg"
     }else{
-        backgroundImg.src = "istockphoto-1192307192-170667a.jpg"
+        backgroundImg.src = "1.jpg"
     }
 })
 
